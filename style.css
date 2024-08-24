@@ -60,7 +60,7 @@ h1{
     }
 .poster{
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), 
-                      url('images/A.png');
+                      url('images/a.png');
 }    
 .posterabout{
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), 
