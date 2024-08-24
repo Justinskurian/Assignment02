@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=New+Amsterdam&display=swap');
+
+body{
+    background-color:rgb(255, 245, 233); 
+}
+h1{
+    font-family: "new amsterdam";
+    color: #af5420;
+    margin-left: ;
+    animation: fadeInNavbar 1s ease-out forwards;
+    opacity: 0;
+}
+.navbar{
+    
+}
+.navbar1{
+    background: linear-gradient(to bottom, rgb(240, 199, 146), rgb(255, 245, 233)); 
+}
+@keyframes fadeInNavbar{
+    from{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }    
+}
+.navbar-nav{
+    margin-left: 30em;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #af5420;
+    transition: 0.5s color ease;
+    font-family: "new amsterdam";
+    font-size: 1.5em;
+    margin: 0em 1.2em;
+    animation: fadeInNavbar 1s ease-out forwards;
+    opacity: 0;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color:rgb(99, 38, 0) ;
+}
+.logo{
+    margin-left: 3.5em;
+    animation: fadeInNavbar 1s ease-out forwards;
+    opacity: 0;
+}
+.poster, .posterabout, .posterevents, .postercollections{
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    padding-right: 7em;
+    padding-top: 5em;
+    }
+.poster{
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), 
+                      url('images/A.png');
+}    
+.posterabout{
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), 
+                      url('images/B.png');
+}    
+.posterevents{
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), 
+                      url('images/C.png');
+}
+.postercollections{
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), 
+                      url('images/D.png');
+}
+.poster h3 {
+    font-family: "new amsterdam";
+    color: #af5420;
+    font-size: 7em;
+    margin-top: .5em;
+    line-height: 1.2;
+}
+.poster h2, .posterabout h2, .posterevents h2, .postercollections h2{
+    font-family: "new amsterdam";
+    color: #ffffff;
+    font-size: 13em;
+    line-height: 0.4;
+    margin-top: .1em;  
+}
+.poster h4{
+    font-family: "new amsterdam";
+    color: #af5420;
+    font-size: 4em;
+    line-height: 2;
+    margin-right: 10px;
+}
+aside{
+    background-color: #af5420;
+    color: aliceblue;
+    padding: 1em;
+    margin-top: 3em;
+    border-radius: 25px;
+    box-shadow: -10px 0px 20px rgba(0, 0, 0, 0.3);
+}
+.heroheading{
+    color:rgb(99, 38, 0) ;
+    margin-top: 1em;
+    font-size: 2.5em;
+}
+.heropara{
+    font-size:larger;
+    padding-right: 3.5em;
+}
+.button{
+    background-color: #af5420;
+    padding:1em 1em ;
+    text-decoration: none;
+    width: 170px;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    display: inline-block;
+    transition: background-color 0.5s ease-in;
+    border-radius: 25px;
+    box-shadow: -10px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.button:hover{
+    background-color: rgb(99, 38, 0);
+}
+.card{
+    margin-top: 4em;
+    box-shadow: -10px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.card-body{
+    margin: 3em 1.6em;
+}
+.col-md-6 {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(175, 84, 32, 0.5));
+    display: flex;
+    border-radius: inherit;
+}
+
+.overlay h2 {
+    font-size: 5em;
+    margin-bottom: 0.5em;
+    font-family:"new amsterdam" ;
+    text-align: right;
+    color: #ffffff;
+    margin-top: 0.4em;
+    margin-left: 2em;
+    margin-right: 0.5em;
+    line-height: 1;
+}
+@media (max-width: 768px) {
+    .poster h3 {
+        font-size: 4rem;
+    }
+    .poster h2 {
+        font-size: 8rem;
+    }
+    .poster h4 {
+        font-size: 2.6rem;
+    }
+}
+.collectionheading{
+    font-family: "new amsterdam";
+    color: #af5420;
+    margin-left: 3em;
+    font-size: 2rem;
+}
+.card-title{
+    text-align: center;
+    font-family:"new amsterdam" ;
+   font-size: x-large; 
+}
+.cardlink{
+    text-decoration: none;
+    color: #a64e1b;
+}
