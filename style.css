@@ -7,7 +7,7 @@ body {
 h1 {
     font-family: "New Amsterdam", sans-serif;
     color: #af5420;
-    margin-left: 3em; /* Specify a value or remove if not needed */
+    margin-left: 3em;
     animation: fadeInNavbar 1s ease-out forwards;
     opacity: 0;
 }
@@ -66,7 +66,7 @@ h1 {
 
 .poster {
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), 
-                      url('/images/100.png');
+                      url('/Images/100.png');
 }
 
 .posterabout {
