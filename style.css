@@ -7,7 +7,6 @@ body {
 h1 {
     font-family: "New Amsterdam", sans-serif;
     color: #af5420;
-    margin-left: 3em;
     animation: fadeInNavbar 1s ease-out forwards;
     opacity: 0;
 }
