@@ -71,17 +71,17 @@ h1 {
 
 .posterabout {
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), 
-                      url('/images/200.png');
+                      url('/Images/200.png');
 }
 
 .posterevents {
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), 
-                      url('/images/300.png');
+                      url('/Images/300.png');
 }
 
 .postercollections {
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), 
-                      url('/images/400.png');
+                      url('/Images/400.png');
 }
 
 .poster h3 {
