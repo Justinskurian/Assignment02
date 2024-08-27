@@ -20,31 +20,35 @@
                         </div>
                         <div class="col-md-6">
                             <div class="card-body">
-                                <h4 class="card-title">LOGIN</h4><br><br>
-                                <form>
+                                <h4 class="card-title">LOGIN</h4><br>
+                                <form action="home.html">
                                     <div class="mb-3">
                                       <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                      <input type="email" class="form-control" id="exampleInputEmail1" oninput="validateem()" aria-describedby="emailHelp">
                                     </div>
-                                    <div class="mb-3">
+                                    <span id="err1"></span><br>
+
+                                    <div class="mb-3" style="margin-top: 1em;">
                                       <label for="exampleInputPassword1" class="form-label">Password</label>
-                                      <input type="password" class="form-control" id="exampleInputPassword1"><br>
-                                      <div class="d-flex align-items-center">
-                                        <a href="./home.html" class="button mr-2" style="margin: 0 1.5em;" >SIGN IN</a>
+                                      <input type="password" class="form-control" id="exampleInputPassword1" oninput="validatepwd()"><br>
+                                      <span id="err2"></span><br>
+                                      <div class="d-flex align-items-center" style="margin-top: 1em;">
+                                        <button type="submit" class="button mr-2" onclick="return validate()">SIGN IN</button>
                                         <span class="mx-2">OR</span>
-                                        <a href="./signup.html" class="button" style="margin-left: 1.5em;">SIGN UP</a>
+                                        <a href="signup.html" class="button" style="margin-left: 1.5em;">SIGN UP</a>
                                     </div>
                                     </div>
-                                  </form>
+                                </form>
+
                                 <center><p class="card-text"><small class="text-body-secondary">Or Sign In using</small></p>
                                     <div class="icon-container">
-                                        <a href="./home.html" class="text-decoration-none mx-2">
+                                        <a href="home.html" class="text-decoration-none mx-2">
                                             <img src="./Images/google.png" class="img-fluid" width="50px"></a>
-                                        <a href="./home.html" class="text-decoration-none mx-2">
+                                        <a href="home.html" class="text-decoration-none mx-2">
                                             <img src="./Images/facebook.png" class="img-fluid" width="30px"></a>
-                                        <a href="./home.html" class="text-decoration-none mx-2">
+                                        <a href="home.html" class="text-decoration-none mx-2">
                                             <img src="./Images/twitter.png" class="img-fluid" width="30px"></a>
-                                        <a href="./home.html" class="text-decoration-none mx-2">
+                                        <a href="home.html" class="text-decoration-none mx-2">
                                             <img src="./Images/apple.png" class="img-fluid" width="45px"></a>    
                                     </div>
                                 </center>
@@ -60,6 +64,7 @@
             Copyright @ COUNTRYSIDE LIBRARY
            </footer>
     </div>
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
