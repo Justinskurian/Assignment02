@@ -21,22 +21,24 @@
                         <div class="col-md-6">
                             <div class="card-body">
                                 <h4 class="card-title">LOGIN</h4><br>
+                                
                                 <form action="home.html">
                                     <div class="mb-3">
                                       <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                      <input type="email" class="form-control" id="exampleInputEmail1" oninput="validateem()" aria-describedby="emailHelp">
-                                    </div>
-                                    <span id="err1"></span><br>
+                                      <input type="email" class="form-control" id="exampleInputEmail1" oninput="validateem()" aria-describedby="emailHelp"> 
+                                    <span id="err1"></span><br></div>
 
                                     <div class="mb-3" style="margin-top: 1em;">
                                       <label for="exampleInputPassword1" class="form-label">Password</label>
+                                      <p style="font-size: small;">Minimum 8 characters with one Capital letter and one number</p>
                                       <input type="password" class="form-control" id="exampleInputPassword1" oninput="validatepwd()"><br>
-                                      <span id="err2"></span><br>
+                                      <span id="err2"></span><br></div>
+
                                       <div class="d-flex align-items-center" style="margin-top: 1em;">
                                         <button type="submit" class="button mr-2" onclick="return validate()">SIGN IN</button>
                                         <span class="mx-2">OR</span>
                                         <a href="signup.html" class="button" style="margin-left: 1.5em;">SIGN UP</a>
-                                    </div>
+                                    
                                     </div>
                                 </form>
 
