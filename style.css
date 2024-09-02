@@ -57,19 +57,19 @@ h1{
     }
 .poster{
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), 
-                      url('/Images/100.png');
+                      url('./Images/100.png');
 }    
 .posterabout{
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), 
-                      url('/Images/200.png');
+                      url('./Images/200.png');
 }    
 .posterevents{
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), 
-                      url('/Images/300.png');
+                      url('./Images/300.png');
 }
 .postercollections{
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), 
-                      url('/Images/400.png');
+                      url('./Images/400.png');
 }
 .poster h3 {
     font-family: "new amsterdam";
